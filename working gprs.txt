@@ -1,0 +1,32 @@
+at
+ERROR
+at
+OK
+at+csq
++CSQ: 14,0
+
+OK
+at+cgatt?
+ERROR
+at+cgatt?
++CGATT: 1
+
+OK
+at+sapbr=3,1,"Contype","GPRS"
+OK
+at+sapbr=1,1
+OK
+at+httpinit
+OK
+at+httppara="url","http://snarks.000webhostapp.com/fire.php?deviceId=2&lat=50&lon=60&udmlevel=75"
+OK
+at+httpaction=0
+OK
+
++HTTPACTION: 0,200,291
+
+
+
+//mySerial.write("AT+HTTPACTION=0\r\n");
+//delay(3000);
+//waitUntilReponse(500);
